@@ -1,0 +1,25 @@
+{
+    "version": "0.1.0",
+    "command": "dotnet",
+    "isShellCommand": true,
+    "args": [],
+    "tasks": [
+        {
+            "taskName": "build",
+            "args": [
+                "${workspaceRoot}/src/CSharpDemoConsole/CSharpDemoConsole.csproj"
+            ],
+            "isBuildCommand": true,
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "taskName": "test",
+            "args": [
+                "${workspaceRoot}/test/CSharpDemoTests/CSharpDemoTests.csproj"
+            ],
+            "isTestCommand": true,
+            "showOutput": "always",
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
