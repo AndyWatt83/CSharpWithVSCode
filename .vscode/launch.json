@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceRoot}/src/CSharpDemoConsole/bin/Debug/netcoreapp1.1/CSharpDemoConsole.dll",
+            "program": "${workspaceRoot}/src/CSharpWithVSCode.ConsoleApp/bin/Debug/netcoreapp1.1/CSharpWithVSCode.ConsoleApp.dll",
             "args": [],
-            "cwd": "${workspaceRoot}/src/CSharpDemoConsole",
+            "cwd": "${workspaceRoot}/src/CSharpWithVSCode.ConsoleApp",
             // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
             "console": "internalConsole",
             "stopAtEntry": false,

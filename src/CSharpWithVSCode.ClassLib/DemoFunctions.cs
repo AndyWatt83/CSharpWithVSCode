@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace CSharpDemoClassLib
+namespace CSharpWithVSCode.ClassLib
 {
     public class DemoFunctions
     {

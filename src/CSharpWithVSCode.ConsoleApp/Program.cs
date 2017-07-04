@@ -1,7 +1,7 @@
 ﻿using System;
-using CSharpDemoClassLib;
+using CSharpWithVSCode.ClassLib;
 
-namespace CSharpDemoConsole
+namespace CSharpWithVSCode.ConsoleApp
 {
     class Program
     {

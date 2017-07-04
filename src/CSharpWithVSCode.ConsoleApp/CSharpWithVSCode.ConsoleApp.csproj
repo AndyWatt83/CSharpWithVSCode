@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\CSharpDemoClassLib\CSharpDemoClassLib.csproj" />
+    <ProjectReference Include="..\CSharpWithVSCode.ClassLib\CSharpWithVSCode.ClassLib.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

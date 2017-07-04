@@ -1,11 +1,10 @@
 using System;
 using Xunit;
-using Moq;
-using CSharpDemoClassLib;
+using CSharpWithVSCode.ClassLib;
 
-namespace CSharpDemoTests
+namespace CSharpWithVSCode.Tests
 {
-    public class UnitTest1
+    public class SimpleTests
     {
         [Fact]
         public void TestMultiply()
