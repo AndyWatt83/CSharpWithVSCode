@@ -6,7 +6,8 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>CSharpWithVSCode.ConsoleApp</RootNamespace>
   </PropertyGroup>
 
 </Project>

@@ -1,25 +1,29 @@
 {
-    "version": "0.1.0",
-    "command": "dotnet",
-    "isShellCommand": true,
-    "args": [],
+    "version": "2.0.0",
     "tasks": [
         {
-            "taskName": "build",
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
             "args": [
+                "build",
                 "${workspaceRoot}/src/CSharpWithVSCode.ConsoleApp/CSharpWithVSCode.ConsoleApp.csproj"
             ],
-            "isBuildCommand": true,
             "problemMatcher": "$msCompile"
         },
         {
-            "taskName": "test",
+            "label": "test",
+            "command": "dotnet",
+            "type": "process",
             "args": [
+                "test",
                 "${workspaceRoot}/test/CSharpWithVSCode.Tests/CSharpWithVSCode.Tests.csproj"
             ],
-            "isTestCommand": true,
-            "showOutput": "always",
-            "problemMatcher": "$msCompile"
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
         }
     ]
 }

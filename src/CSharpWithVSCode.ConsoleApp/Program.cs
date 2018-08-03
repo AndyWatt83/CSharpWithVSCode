@@ -16,7 +16,6 @@ namespace CSharpWithVSCode.ConsoleApp
                 message,
                 example.Reverse(message)
             );
-            
         }
     }
 }
